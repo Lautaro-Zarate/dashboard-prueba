@@ -2,7 +2,7 @@ import { Navbar } from "@/components/layout/Navbar";
 import { CardsContainer } from "@/components/layout/CardsContainer";
 import { ChartsContainer } from "@/components/layout/ChartsContainer";
 import { Button } from "@/components/ui/button";
-import { Columns, Pencil } from "lucide-react";
+import { Columns} from "lucide-react";
 import { DataTable } from "@/components/layout/DataTable";
 import { AddUser } from "@/components/layout/Dialog";
 export default function HomePage() {
