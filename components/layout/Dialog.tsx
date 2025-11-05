@@ -16,7 +16,7 @@ export function AddUser(){
         resolver: zodResolver(userSchema)
     });
 
-    const onSubmit = (data) => {
+    const onSubmit = (data: any) => {
         console.log(data);
         reset();
         setOpen(false)

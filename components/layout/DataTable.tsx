@@ -17,8 +17,6 @@ interface UsersResponse {
     users: User[];
 }
 const getUsers = async() : Promise<UsersResponse> => {
-    // const limit = 10;
-    // const skip = (page - 1) * limit;
     const res = await fetch('https://dummyjson.com/users?limit=30')
     return res.json();
 }

@@ -57,8 +57,6 @@ const otherItems: SideBarItems[] = [
     },
 ]
 
-// REFACTORIZAR LOS SIDEBARS
-
 export function AppSidebar() {
     return (
         <Sidebar collapsible='none' className="w-48">

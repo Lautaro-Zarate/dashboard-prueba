@@ -29,20 +29,10 @@ export function PaginationTable({page, totalPages, onPageChange} : PaginationTab
               </PaginationItem>
             )
           })}
-{/*                     
-                    <PaginationItem>
-                    <PaginationLink>1</PaginationLink>
-                    </PaginationItem>
-                    <PaginationItem>
-                    <PaginationLink>2</PaginationLink>
-                    </PaginationItem>
-                    <PaginationItem>
-                    <PaginationLink>3</PaginationLink>
-                    </PaginationItem> */}
-                    <PaginationItem>
-                    <PaginationNext onClick={() => onPageChange(page + 1)}/>
-                    </PaginationItem>
-                </PaginationContent>
+              <PaginationItem>
+                <PaginationNext onClick={() => onPageChange(page + 1)}/>
+              </PaginationItem>
+              </PaginationContent>
             </Pagination>
         </div>
     )
